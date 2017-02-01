@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* timing in util.h requires -lrt flag to compile */
+/* timing in util.h may require -lrt flag to compile */
 #include "util.h"
 
 int main (int argc, char **argv)
