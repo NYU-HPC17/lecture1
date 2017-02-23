@@ -9,6 +9,7 @@ and must use -fopenmp to link against the OpenMP libs, e.g.:
 
 gcc inner-omp.c -a inner-omp -fopenmp
 
+You might have to include the library flag -lrt for openmp compiles
 
 
 
